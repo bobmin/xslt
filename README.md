@@ -1,5 +1,9 @@
 # Dokumente per XSLT formatieren
 
+![](https://img.shields.io/github/languages/code-size/bobmin/xslt.svg?style=flat) 
+![](https://img.shields.io/github/last-commit/bobmin/xslt.svg?style=flat) 
+![](https://img.shields.io/github/languages/top/bobmin/xslt.svg?style=flat)
+
 ## Grundlagen XSLT
 
 * [FU Berlin, Transformation von XML-Dokumenten](http://www.ag-nbi.de/lehre/07/V_XML/Folien/06_XSLT.pdf)
