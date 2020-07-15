@@ -15,4 +15,4 @@
 
 ## Workaround: CORS-Anfrage im Firefox 78
 
-![Screenshot Firefox](https://raw.githubusercontent.com/bobmin/xslt/master/firefox_workaround.png)
+<img src="https://raw.githubusercontent.com/bobmin/xslt/master/firefox_workaround.png" width="400" alt="Screenshot Firefox" />
