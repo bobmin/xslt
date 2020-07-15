@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="l2.xsl"?>
+<l2 label="Demo L2" ident="5678">
+    <article name="Artikel 21" price="5.44" currency="USD"/>
+    <article name="Artikel 22" price="10.88" currency="USD"/>
+</l2>

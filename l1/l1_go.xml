@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<go num="1234" txt="Demo L1">
+   <pos>
+      <pna>Artikel 11</pna>
+      <ppr cur="EUR">1</ppr>
+   </pos>
+   <pos>
+      <pna>Artikel 12</pna>
+      <ppr cur="EUR">22</ppr>
+   </pos>
+</go>

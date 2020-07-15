@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="l1.xsl"?>
+<l1>
+    <name>Demo L1</name>
+    <number>1234</number>
+    <items>
+        <item>
+            <label>Artikel 11</label>
+            <price>1</price>
+            <currency>EUR</currency>
+        </item>
+        <item>
+            <label>Artikel 12</label>
+            <price>22</price>
+            <currency>EUR</currency>
+        </item>
+    </items>
+</l1>
