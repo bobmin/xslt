@@ -14,6 +14,8 @@
 
 ## Beispielanwendung
 
+<img src="https://raw.githubusercontent.com/bobmin/xslt/master/usecase_lxgo.png" alt="Usecase Lxgo" />
+
 * mit `lx.bat` die XML-Datei zum Arbeitsdokument (HTML) konvertieren
 * über `go.bat` aus Arbeitsdokument das Zielformat ableiten (XML)
 
