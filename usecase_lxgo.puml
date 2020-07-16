@@ -1,0 +1,65 @@
+@startuml usecase_lxgo
+
+left to right direction
+scale 1.0
+
+'left to right direction
+
+title Beispielanwendung LXGO
+
+right header bobmin - 16.07.2020
+left footer ..\xslt\usecase_lxgo.puml
+
+skinparam actor {
+	BackgroundColor<< LX >> LightGray
+	BackgroundColor<< MEP >> IndianRed
+	BackgroundColor<< GOAL >> PaleGreen
+}
+
+skinparam usecase {
+	BackgroundColor<< LX >> LightGray
+	BackgroundColor<< MEP >> IndianRed
+}
+
+actor :L1: << LX >> as l1
+actor :L2: << LX >> as l2
+actor :Editor: << MEP >> as op
+actor :Browser/Monitor: << MEP >> as mon
+
+rectangle Arbeitsdokument {
+
+usecase l1xml << LX >> as "XML-Datei im
+Format A"
+
+usecase l2xml << LX >> as "XML-Datei im
+Format B"
+
+usecase l1xsl << MEP >> as "XSL-Datei für
+Format A"
+
+usecase l2xsl << MEP >> as "XSL-Datei für
+Format B"
+
+}
+
+usecase goxsl << MEP >> as "XSL-Datei für
+Zielformat"
+
+l1 --> l1xml
+l1xml <--> l1xsl
+
+l2 --> l2xml
+l2xml <--> l2xsl
+
+
+l1xsl <-- op
+l2xsl <-- op
+
+op --> goxsl
+
+mon <. l1xsl
+mon <. l2xsl
+
+hide stereotypes
+
+@enduml
