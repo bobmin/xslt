@@ -5,7 +5,7 @@ scale 1.0
 
 'left to right direction
 
-title Beispielanwendung LXGO
+title Daten sammeln, den Fortschritt beobachten und\neinheitlich bereitstellen
 
 right header bobmin - 16.07.2020
 left footer ..\xslt\usecase_lxgo.puml
