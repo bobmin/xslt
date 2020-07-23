@@ -1,0 +1,25 @@
+:root {
+    font-family: 'Courier New', Courier, monospace
+}
+
+table {
+    width: 100%;
+    border-spacing: 0.4rem;
+}
+
+th, td {
+    padding: 0.4rem;
+}
+
+th {
+    width: 10rem;
+    text-align: right;
+    background-color: lightgray;
+}
+
+#footer {
+    font-size: 0.6rem;
+    color: gray;
+    padding-top: 3rem;
+    text-align: right;
+}
