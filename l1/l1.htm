@@ -1,4 +1,7 @@
 <!DOCTYPE HTML><html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link rel="stylesheet" type="text/css" href="../styles.css"><script language="javascript" type="text/javascript" src="../lx.js"></script></head>
    <body>
       <h1>Datenblatt L1</h1>
       <h2>Partnerinfo</h2>
@@ -15,20 +18,25 @@
       <h2>Beispielartikel</h2>
       <table border="1">
          <tr>
+            <th>#</th>
             <th>Artikel</th>
             <th>Preis</th>
             <th>Währung</th>
          </tr>
          <tr>
-            <td>Artikel 11</td>
             <td>1</td>
-            <td>EUR</td>
+            <td>Artikel 11</td>
+            <td></td>
+            <td></td>
          </tr>
          <tr>
+            <td>2</td>
             <td>Artikel 12</td>
-            <td>22</td>
-            <td>EUR</td>
+            <td></td>
+            <td></td>
          </tr>
       </table>
-   </body>
+      <div id="footer">erstellt am <span id="today">10.04.2020</span></div><script>
+      document.getElementById("today").innerHTML = get_today();
+    </script></body>
 </html>
