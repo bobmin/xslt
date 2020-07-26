@@ -21,10 +21,10 @@
 
 ## Arbeitsumgebung
 
-* [Git](https://git-scm.com/download)
-* [VSCode](https://code.visualstudio.com/) mit Erweiterungen
-  * XML Tools
-  * Live Server
+[Git](https://git-scm.com/download) und [VSCode](https://code.visualstudio.com/) mit folgenden Erweiterungen
+
+* XML Tools
+* Live Server
 
 ## Arbeitsablauf
 
