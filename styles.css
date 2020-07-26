@@ -2,8 +2,13 @@
     font-family: 'Courier New', Courier, monospace
 }
 
+h1, h2 {
+    color: DarkSlateGray;
+}
+
 table {
-    width: 100%;
+    width: 800px;
+    table-layout: fixed;
     border-spacing: 0.4rem;
 }
 
@@ -14,7 +19,24 @@ th, td {
 th {
     width: 10rem;
     text-align: right;
-    background-color: lightgray;
+    background-color: LemonChiffon;
+}
+
+#zeilen th {
+    text-align: center;
+}
+
+#zeilen tr:nth-child(odd) {
+    background: GhostWhite;
+}
+
+#auswahl {
+    font-size: 1.4rem;
+    list-style: none;
+}
+
+#auswahl li {
+    padding-top: 2rem;
 }
 
 #footer {

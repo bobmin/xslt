@@ -21,22 +21,24 @@
         </tr>
     </table>
     <h2>Beispielzeilen</h2>
-    <table border="1">
+    <table id="zeilen">
       <tr>
-        <th>#</th>
-        <th>Artikel</th>
-        <th>Preis</th>
-        <th>Währung</th>
+        <th style="width:10%">#</th>
+        <th style="width:50%">Artikel</th>
+        <th style="width:30%">Preis</th>
+        <th style="width:10%">Währung</th>
       </tr>
       <xsl:for-each select="$LX_Zeilen">
         <tr>
-          <td><xsl:value-of select="position()"/></td>
+          <td style="text-align: center">
+            <xsl:value-of select="position()"/>
+          </td>
           <td>
             <xsl:call-template name="LX_Artikel">
                 <xsl:with-param name="it" select="." />
             </xsl:call-template>
           </td>
-          <td>
+          <td style="text-align: right">
             <xsl:call-template name="LX_Preis">
                 <xsl:with-param name="it" select="." />
             </xsl:call-template>
