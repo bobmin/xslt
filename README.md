@@ -19,6 +19,27 @@
 * mit `lx.bat` die XML-Datei zum Arbeitsdokument (HTML) konvertieren
 * über `go.bat` aus Arbeitsdokument das Zielformat ableiten (XML)
 
+## Arbeitsumgebung
+
+* [Git](https://git-scm.com/download)
+* [VSCode](https://code.visualstudio.com/) mit Erweiterungen
+  * XML Tools
+  * Live Server
+
+## Arbeitsablauf
+
+* in VSCode das Projektverzeichnis öffnen
+* `Go Live` in Statusleiste (rechts unten) anklicken
+* Browser startet und zeigt Projektordner
+* `index.htm` öffnen und Datenblatt wählen
+* XSL-Datei vom Datenblatt in VSCode bearbeiten
+* Änderungen in XSL-Datei speichern
+* Browser-Anzeige wird automatisch aktualisiert
+
+Tipp: VSCode und Browser nebeneinander öffnen
+
 ## Workaround: CORS-Anfrage im Firefox 78
+
+nur gebraucht, wenn Live Server im VSCode nicht eingesetzt wird und die Dateien per `file://` geöffnet werden
 
 <img src="https://raw.githubusercontent.com/bobmin/xslt/master/firefox_workaround.png" width="400" alt="Screenshot Firefox" />
