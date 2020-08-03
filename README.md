@@ -19,10 +19,6 @@
 * mit `lx.bat` die XML-Datei zum Arbeitsdokument (HTML) konvertieren
 * über `go.bat` aus Arbeitsdokument das Zielformat ableiten (XML)
 
-<div style="margin-left:20px;">
-<img src="https://raw.githubusercontent.com/bobmin/xslt/master/lx.jpg" width="450px" alt="Beispiel Lx-Ausgabe" />
-</div>
-
 ## Arbeitsumgebung
 
 [Git](https://git-scm.com/download) und [VSCode](https://code.visualstudio.com/) mit folgenden Erweiterungen
