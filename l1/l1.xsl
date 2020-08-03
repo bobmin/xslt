@@ -2,6 +2,9 @@
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
+  <xsl:variable name="LX_AnsprName" select="'Alice'" />
+  <xsl:variable name="LX_WertungZahl" select="95" />
+
   <!-- Daten -->
   <xsl:variable name="LX_Name" select="l1/name" />
   <xsl:variable name="LX_Code" select="l1/number" />

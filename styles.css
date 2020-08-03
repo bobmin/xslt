@@ -45,3 +45,22 @@ th {
     padding-top: 3rem;
     text-align: right;
 }
+
+.wertung {
+    border-radius: 0.5rem;
+	font-size: 0.85rem;
+	padding: 0.4rem 0.8rem 0.3rem 0.8rem;
+	vertical-align: super;
+}
+
+.lxgood {
+    background-color: #ccebc5;
+}
+
+.lxmedium {
+    background-color: #fdb462;
+}
+
+.lxwrong {
+    background-color: #fb8072;
+}
