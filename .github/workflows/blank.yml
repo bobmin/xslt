@@ -25,9 +25,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Hello, world!
+        run: echo Update HTM of L"
         
       - name: Download Saxon-HE
         run:  curl https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/10.1/Saxon-HE-10.1.jar > saxon.jar
@@ -35,8 +34,11 @@ jobs:
       - name: Perform XSL Transformation
         run: java -cp ./saxon.jar net.sf.saxon.Transform -s:l2/l2.xml -xsl:l2/l2.xsl -o:l2/l2.htm
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+      - name: Commit Changes
+        run:  |
+          git add l2/l2.htm
+          git diff
+          git config user.email "maik@btmx.net"
+          git config user.name "GitHub Action Bot"
+          git commit -m "Updated HTM of L2" -a || echo "No changes to commit"
+          git push
