@@ -31,6 +31,9 @@ jobs:
         
       - name: Download Saxon-HE
         run:  curl https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/10.1/Saxon-HE-10.1.jar > saxon.jar
+        
+      - name: Perform XSL Transformation
+        run: java -cp ./saxon.jar net.sf.saxon.Transform -s:l2/l2.xml -xsl:l2/l2.xsl -o:l2/l2.htm
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
