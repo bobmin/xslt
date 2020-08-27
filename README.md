@@ -38,6 +38,10 @@
 
 Tipp: VSCode und Browser nebeneinander öffnen
 
+## Automatisierung
+
+* Github/Actions
+
 ## Workaround: CORS-Anfrage im Firefox 78
 
 nur gebraucht, wenn Live Server im VSCode nicht eingesetzt wird und die Dateien per `file://` geöffnet werden
